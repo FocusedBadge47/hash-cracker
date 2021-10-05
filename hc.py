@@ -53,7 +53,7 @@ if True:
 
 		passwd = password
 		encoded_passwd = passwd.encode('latin-1')
-		final_passwd = encoded_passwd.lower()
+		final_passwd = encoded_passwd
 		
 		if htype == 'md5':
 
